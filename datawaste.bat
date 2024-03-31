@@ -15,7 +15,7 @@ echo.
 
 :gen
 echo Downloading Large File...
-curl -L -o %FILENAME% https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-desktop-amd64.iso
+curl -L -o %FILENAME% https://dl.google.com/dl/android/aosp/husky-ud1a.230803.022.a3-factory-a95417f6.zip
 echo Deleting Large File...
 del /f %FILENAME%
 echo.
